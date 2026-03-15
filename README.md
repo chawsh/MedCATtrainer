@@ -43,6 +43,8 @@ Quick-install script, downloads the docker-compose file, default env var and run
 $ cd MedCATtrainer
 $ docker-compose up</pre>
 
+NOTE: THE GIT FILE CLONED STATED MEDCAT TRAINER V3.4.1 WHICH WILL THROW ERROR MESSAGE. NEED TO AMEND THE YML FILE FOR 'DOCKER-COMPOSE.YML' FILE TO CHANGE Image cogstacksystems/medcat-trainer:v3.4.1 TO Image cogstacksystems/medcat-trainer:latest, THEN SAVE
+
 If you have MedCAT v0.x models, and want to use the trainer please use the following docker-compose file:
 This refences the latest built image for the trainer that is still compatible with [MedCAT v0.x.](https://pypi.org/project/medcat/0.4.0.6/) and under. 
 <pre>
